@@ -1,0 +1,26 @@
+{
+  "name": "spike-myth",
+  "version": "1.0.0",
+  "description": "More mythical creatures for mod 1 FE",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noetic97/spike-myth.git"
+  },
+  "author": "Joe Heitkamp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noetic97/spike-myth/issues"
+  },
+  "homepage": "https://github.com/noetic97/spike-myth#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  }
+}
