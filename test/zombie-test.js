@@ -4,29 +4,29 @@ var Human = require('../creatures/human')
 
 describe('Zombie', function () {
 
-  it('Should be a function', function () {
+  it.skip('Should be a function', function () {
     assert.isFunction(Zombie);
   });
 
-  it('Should instantiate a zombie from the dead!!', function () {
+  it.skip('Should instantiate a zombie from the dead!!', function () {
     var zombie = new Zombie();
 
     assert.isObject(zombie)
   })
 
-  it('Should be undead', function () {
+  it.skip('Should be undead', function () {
     var zombie = new Zombie();
 
-    assert.equal(zombie.alive, false);
+    assert.equal(zombie.undead, false);
   })
 
-  it('Should have a name, and that name should be Rob', function () {
+  it.skip('Should have a name, and that name should be Rob', function () {
     var zombie = new Zombie();
 
     assert.equal(zombie.name, 'Rob');
   })
 
-  it('Should eat braaaaaiiiiiinnnnnnsssss!!!', function () {
+  it.skip('Should eat braaaaaiiiiiinnnnnnsssss!!!', function () {
     var zombie = new Zombie();
     var human = new Human('George')
 
@@ -35,7 +35,7 @@ describe('Zombie', function () {
     assert.equal(zombie.brainPower, 1)
   })
 
-  it('Should kill a human when it eats its brain', function () {
+  it.skip('Should kill a human when it eats its brain', function () {
     var zombie = new Zombie();
     var human = new Human('Juan')
 
@@ -46,7 +46,7 @@ describe('Zombie', function () {
     assert.equal(human.alive, false)
   })
 
-  it('Should not be able to eat the same humans brain more than once', function () {
+  it.skip('Should not be able to eat the same humans brain more than once', function () {
     var zombie = new Zombie();
     var human = new Human('Ciara')
 
@@ -60,7 +60,7 @@ describe('Zombie', function () {
     assert.equal(zombie.brainPower, 1)
   })
 
-  it('Should become a super-zombie after eating 5 brains', function () {
+  it.skip('Should become a super-zombie after eating 5 brains', function () {
     var zombie = new Zombie();
     var human1 = new Human('JC')
     var human2 = new Human('Lindsay')
