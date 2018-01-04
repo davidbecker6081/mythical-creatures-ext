@@ -19,7 +19,6 @@ describe('Zombie', function () {
 
     assert.equal(zombie.undead, false);
   })
-
   it.skip('Should have a name, and that name should be Rob', function () {
     var zombie = new Zombie();
 

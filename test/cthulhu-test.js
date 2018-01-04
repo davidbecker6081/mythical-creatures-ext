@@ -57,6 +57,9 @@ describe('Cthulhu', function () {
   it.skip('Should drive a human insane by looking at it', function () {
     var cthulhu = new Cthulhu('Hector');
     var human = new Human('Shayla');
+    human.summonMonster(cthulhu);
+    human.summonMonster(cthulhu);
+    human.summonMonster(cthulhu);
 
     cthulhu.imprisoned = false;
     assert.equal(human.isSane, true);
